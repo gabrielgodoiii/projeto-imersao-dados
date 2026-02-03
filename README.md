@@ -8,7 +8,7 @@ https://projeto-imersao-dados.streamlit.app/
 Dashboard analítico desenvolvido em Python para exploração e visualização de dados salariais do mercado de Dados.  
 O projeto transforma um dataset real em insights claros e interativos, permitindo análises comparativas por senioridade, tipo de contrato, modelo de trabalho, tamanho da empresa e localização geográfica.
 
-Projeto desenvolvido durante a Imersão Dados (Alura), com foco em análise de dados, visualização, organização de código e entrega de valor.
+Projeto desenvolvido durante a **Imersão Dados (Alura)**, com foco em análise de dados, visualização, organização de código e entrega de valor.
 
 ---
 
@@ -69,6 +69,27 @@ Demonstrar, na prática, competências técnicas e analíticas aplicáveis ao me
 
 ---
 
+## Destaques Técnicos
+
+- Limpeza e preparação de dados utilizando **Pandas**
+- Análise exploratória focada em **indicadores de mercado de Dados**
+- Criação de visualizações interativas com **Plotly**
+- Desenvolvimento de dashboard web com **Streamlit**
+- Organização do projeto seguindo boas práticas de versionamento
+- Deploy da aplicação em ambiente público para acesso via navegador
+
+---
+
+## Possíveis Evoluções
+
+- Implementar filtros avançados por senioridade, país e tipo de contrato
+- Adicionar séries temporais para análise de evolução salarial ao longo dos anos
+- Integrar novas fontes de dados para enriquecer as análises
+- Criar autenticação de usuários para dashboards personalizados
+- Refatorar a aplicação em módulos para maior escalabilidade
+
+---
+
 ## Estrutura do Projeto
 
 ```text
@@ -82,18 +103,65 @@ projeto-imersao-dados/
 │   ├── proporcao_tipos_trabalho.png
 │   └── salario_medio_por_pais.png
 └── README.md
+```
 
 ---
 
-## Como Executar Localmente
+## Como executar localmente
 
 ### Pré-requisitos
 
 - Python 3.8 ou superior
 
 ### Passo a passo
-
-1. Clone o repositório:
+### 1️⃣ Clonar o repositório
 
 ```bash
-git clone https://github.com/gabrielgodoiii/projeto-imersao-dados.git
+git clone https://github.com/seu-usuario/projeto-imersao-dados.git
+cd projeto-imersao-dados
+```
+
+---
+
+## 2️⃣ Criar e ativar o ambiente virtual
+
+```bash
+python -m venv .venv
+```
+
+### Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+source .venv/bin/activate
+```
+---
+
+## 3️⃣ Instalar as dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Executar a aplicação
+
+```bash
+streamlit run app.py
+```
+
+Após a execução, a aplicação será aberta automaticamente no navegador padrão.
+
+---
+
+## Autor
+
+**Gabriel Godoi**  
+Estudante e entusiasta da área de Dados, com foco em análise, visualização e construção de dashboards interativos em Python.  
+Projeto desenvolvido para fins educacionais e de portfólio.
