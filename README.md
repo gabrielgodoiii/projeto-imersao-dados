@@ -1,4 +1,4 @@
-## Data Salary Analytics Dashboard
+## 📊Data Salary Analytics Dashboard
 
 Interactive Data Analysis with Python & Streamlit
 
